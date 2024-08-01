@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6BF31D82C5AFF2A008A2F40 /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF31D72C5AFF2A008A2F40 /* Analysis.swift */; };
+		E6BF31DA2C5AFFF9008A2F40 /* ExpensesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF31D92C5AFFF9008A2F40 /* ExpensesPage.swift */; };
 		E6C15AB82C59AAEF0059D962 /* FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C15AB72C59AAEF0059D962 /* FinalApp.swift */; };
 		E6C15ABA2C59AAEF0059D962 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C15AB92C59AAEF0059D962 /* ContentView.swift */; };
 		E6C15ABC2C59AAF00059D962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C15ABB2C59AAF00059D962 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		E6C15AC92C59AAF10059D962 /* FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C15AC82C59AAF10059D962 /* FinalTests.swift */; };
 		E6C15AD32C59AAF10059D962 /* FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C15AD22C59AAF10059D962 /* FinalUITests.swift */; };
 		E6C15AD52C59AAF10059D962 /* FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C15AD42C59AAF10059D962 /* FinalUITestsLaunchTests.swift */; };
+		E6C15AE22C59CCE10059D962 /* CheckingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C15AE12C59CCE10059D962 /* CheckingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6BF31D72C5AFF2A008A2F40 /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
+		E6BF31D92C5AFFF9008A2F40 /* ExpensesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesPage.swift; sourceTree = "<group>"; };
 		E6C15AB42C59AAEF0059D962 /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C15AB72C59AAEF0059D962 /* FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalApp.swift; sourceTree = "<group>"; };
 		E6C15AB92C59AAEF0059D962 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 		E6C15ACE2C59AAF10059D962 /* FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C15AD22C59AAF10059D962 /* FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUITests.swift; sourceTree = "<group>"; };
 		E6C15AD42C59AAF10059D962 /* FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6C15AE12C59CCE10059D962 /* CheckingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				E6C15AB72C59AAEF0059D962 /* FinalApp.swift */,
 				E6C15AB92C59AAEF0059D962 /* ContentView.swift */,
+				E6BF31D92C5AFFF9008A2F40 /* ExpensesPage.swift */,
+				E6BF31D72C5AFF2A008A2F40 /* Analysis.swift */,
+				E6C15AE12C59CCE10059D962 /* CheckingPage.swift */,
 				E6C15ABB2C59AAF00059D962 /* Assets.xcassets */,
 				E6C15ABD2C59AAF00059D962 /* Preview Content */,
 			);
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6C15ABA2C59AAEF0059D962 /* ContentView.swift in Sources */,
+				E6BF31DA2C5AFFF9008A2F40 /* ExpensesPage.swift in Sources */,
+				E6BF31D82C5AFF2A008A2F40 /* Analysis.swift in Sources */,
 				E6C15AB82C59AAEF0059D962 /* FinalApp.swift in Sources */,
+				E6C15AE22C59CCE10059D962 /* CheckingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
